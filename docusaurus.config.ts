@@ -14,12 +14,12 @@ const config: Config = {
   url: 'https://docs.loreum.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/chamber/',
+  baseUrl: '/loreum-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'loreum-org', // Usually your GitHub org/user name.
-  projectName: 'chamber', // Usually your repo name.
+  projectName: 'loreum-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   // Explicitly set trailing slash behavior
