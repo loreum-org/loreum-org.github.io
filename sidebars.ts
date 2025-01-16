@@ -1,51 +1,61 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+// Sidebar configuration for Loreum Docs
+// Organizes the categories and pages for the documentation site.
 
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
-
- The sidebars can be generated from the filesystem, or explicitly defined here.
-
- Create as many sidebars as you want.
- */
 const sidebars: SidebarsConfig = {
   docs: [
     {
-      type: 'doc',
-      id: 'index',
+      type: 'category',
       label: 'Introduction',
-    },
-    {
-      type: 'category',
-      label: 'Chamber',
       items: [
-        'chamber/overview',
-        'chamber/architecture',
-        'chamber/ai-integration',
-        'chamber/governance',
-        'chamber/implementation',
+        'intro', // Refers to docs/intro.md
+        'getting-started', // Refers to docs/getting-started.md
       ],
     },
     {
       type: 'category',
-      label: 'User Guides',
+      label: 'Core Concepts', 
       items: [
-        'guides/getting-started',
-        'guides/delegation',
-        'guides/transactions',
-        'guides/governance',
+        'core/overview', // Refers to docs/core/overview.md
+        'core/architecture', // Refers to docs/core/architecture.md
+        'core/governance', // Refers to docs/core/governance.md
       ],
     },
     {
       type: 'category',
-      label: 'Resources',
+      label: 'Guides',
       items: [
-        'deployments',
+        {
+          type: 'category',
+          label: 'Setup',
+          items: [
+            'guides/setup/local-installation', // Refers to docs/guides/setup/local-installation.md
+            'guides/setup/cloud-deployment', // Refers to docs/guides/setup/cloud-deployment.md
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Advanced',
+          items: [
+            'guides/advanced/query-optimization', // Refers to docs/guides/advanced/query-optimization.md
+            'guides/advanced/token-integration', // Refers to docs/guides/advanced/token-integration.md
+          ],
+        },
       ],
+    },
+    {
+      type: 'category',
+      label: 'API Reference',
+      items: [
+        'api/overview', // Refers to docs/api/overview.md
+        'api/endpoints', // Refers to docs/api/endpoints.md
+      ],
+    },
+    {
+      type: 'link',
+      label: 'GitHub',
+      href: 'https://github.com/Loreum',
     },
   ],
 };

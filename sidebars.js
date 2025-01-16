@@ -1,51 +1,59 @@
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const sidebars = {
+// Sidebar configuration for Loreum Docs
+// Organizes the categories and pages for the documentation site.
+
+module.exports = {
   docs: [
     {
-      type: 'doc',
-      id: 'intro',
+      type: 'category',
       label: 'Introduction',
-    },
-    {
-      type: 'category',
-      label: 'Architecture',
       items: [
-        'architecture/overview',
-        'architecture/board',
-        'architecture/wallet',
+        'intro', // Refers to docs/intro.md
+        'getting-started', // Refers to docs/getting-started.md
       ],
     },
     {
       type: 'category',
-      label: 'Smart Contracts',
+      label: 'Core Concepts',
       items: [
-        'contracts/overview',
-        'contracts/chamber',
-        'contracts/board',
-        'contracts/wallet',
+        'core/overview', // Refers to docs/core/overview.md
+        'core/architecture', // Refers to docs/core/architecture.md
+        'core/governance', // Refers to docs/core/governance.md
       ],
     },
     {
       type: 'category',
-      label: 'User Guides',
+      label: 'Guides',
       items: [
-        'guides/getting-started',
-        'guides/delegation',
-        'guides/transactions',
-        'guides/governance',
+        {
+          type: 'category',
+          label: 'Setup',
+          items: [
+            'guides/setup/local-installation', // Refers to docs/guides/setup/local-installation.md
+            'guides/setup/cloud-deployment', // Refers to docs/guides/setup/cloud-deployment.md
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Advanced',
+          items: [
+            'guides/advanced/query-optimization', // Refers to docs/guides/advanced/query-optimization.md
+            'guides/advanced/token-integration', // Refers to docs/guides/advanced/token-integration.md
+          ],
+        },
       ],
     },
     {
       type: 'category',
       label: 'API Reference',
       items: [
-        'api/overview',
-        'api/chamber',
-        'api/board',
-        'api/wallet',
+        'api/overview', // Refers to docs/api/overview.md
+        'api/endpoints', // Refers to docs/api/endpoints.md
       ],
+    },
+    {
+      type: 'link',
+      label: 'GitHub',
+      href: 'https://github.com/Loreum',
     },
   ],
 };
-
-module.exports = sidebars; 
