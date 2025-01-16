@@ -9,7 +9,7 @@ sidebar_position: 1
 
 # Overview
 
-Welcome to the **Loreum Network** documentation! Loreum is a decentralized, autonomous system designed to coordinate human and AI agency within a secure, scalable, and collaborative ecosystem. Each node in the network, called a **Loreum Node**, operates independently while contributing to the broader network's governance, innovation, and economic sustainability.
+The Loreum Network is a decentralized super-intelligence ecosystem designed to enable seamless collaboration between human and AI agents. With a focus on fostering innovation, inclusivity, and sustainability, the network leverages distributed AI services and collaborative decision-making to create a secure and interoperable platform. Its vision is to democratize access to advanced technologies and data, empowering individuals and communities to innovate and govern responsibly.
 
 ---
 
@@ -21,7 +21,7 @@ The Loreum Network is built to empower decentralized intelligence and decision-m
 - **Collaboration**: Nodes interact and exchange resources within a unified protocol, fostering interoperability.
 - **Economic Incentives**: A tokenized system incentivizes contributions and ensures fair value distribution.
 
-### Core Features of Loreum:
+### Core Features
 - **Distributed Governance**: Decision-making is powered by token delegation and reputation systems.
 - **Modular Architecture**: Nodes can add sensors, agents, and custom extensions.
 - **Monetized Queries**: Nodes earn tokens for responding to external requests or sharing data.
@@ -39,10 +39,10 @@ graph TD
     A -->|Requests Query| C[Loreum Node]
     B -->|Token Incentives| D[Governance System]
     C -->|Encrypted Data Exchange| D
-    D -->|Delegates Power| E[Leaderboard of Decision-Making]
+    D -->|Delegates Power| E[Leaderboard]
 ```
 
-### Components:
+### Components
 1. **Loreum Nodes**:
    - Autonomous units managing local data, sensors, and agents.
    - Capable of interacting with other nodes for resource sharing and collaboration.
