@@ -8,7 +8,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://cdn.loreum.org/logos/white.svg',
   organizationName: 'Loreum',
   projectName: 'docs',
 
