@@ -3,6 +3,10 @@ slug: /
 sidebar_position: 1
 ---
 
+<div style={{textAlign: 'center', marginBottom: '2rem'}}>
+  <img src="/img/logo-header.svg" alt="Loreum Network" width="800" />
+</div>
+
 # Overview
 
 Welcome to the **Loreum Network** documentation! Loreum is a decentralized, autonomous system designed to coordinate human and AI agency within a secure, scalable, and collaborative ecosystem. Each node in the network, called a **Loreum Node**, operates independently while contributing to the broader network's governance, innovation, and economic sustainability.
