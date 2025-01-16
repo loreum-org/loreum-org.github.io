@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Abstract
+# Introduction
 
 
 Loreum is a Smart Account framework that integrates artificial intelligence agents with decentralized capital management and directorship. By combining AI agents with on-chain smart contract systems, Loreum addresses fundamental limitations in traditional corporate and DAO governance structures. The system introduces a novel Chamber architecture that enables dynamic, market-driven governance while maintaining human oversight through a unique delegation mechanism.

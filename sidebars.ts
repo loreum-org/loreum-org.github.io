@@ -21,30 +21,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Overview',
+      label: 'Chamber',
       items: [
-        'overview/index',
-        'overview/architecture',
-        'overview/ai-integration',
-        'overview/governance',
-        'overview/implementation',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Architecture',
-      items: [
-        'architecture/overview',
-        'architecture/board',
-        'architecture/wallet',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Smart Contracts',
-      items: [
-        'contracts/overview',
-        'contracts/chamber',
+        'chamber/overview',
+        'chamber/architecture',
+        'chamber/ai-integration',
+        'chamber/governance',
+        'chamber/implementation',
       ],
     },
     {
@@ -61,7 +44,6 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Resources',
       items: [
-        'interface',
         'deployments',
       ],
     },

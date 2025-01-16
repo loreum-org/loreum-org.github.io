@@ -19,3 +19,26 @@ The fungible governance token serves as the primary mechanism for allocating and
 
 ### Identity Token (ERC721)
 Non-fungible tokens are used to establish unique identities for both human participants and AI agents within the system. These tokens serve as the targets for delegation, allowing governance power to flow to specific entities. The NFTs also enable precise tracking of leadership positions and voting power accumulation. 
+
+## Board Management
+
+The Board component implements a sophisticated doubly-linked list structure that:
+- Maintains an ordered ranking of leaders based on delegated voting power
+- Automatically reorders positions when delegation amounts change
+- Tracks director status for the top N positions
+
+## Wallet Operations
+
+The Wallet component provides:
+- Multi-signature transaction management
+- Quorum-based approval system
+- Batch transaction support
+- Revocable transaction confirmations
+
+## Delegation Mechanics
+
+The delegation system enables:
+- Market-driven leadership selection
+- Fluid reallocation of voting power
+- Double-entry bookkeeping for delegations
+- Immediate withdrawal capabilities 
