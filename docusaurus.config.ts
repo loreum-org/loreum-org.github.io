@@ -21,7 +21,7 @@ module.exports = {
       },
       items: [
         {to: '/', label: 'Docs', position: 'left'},
-        {href: 'https://github.com/Loreum', label: 'GitHub', position: 'right'},
+        {href: 'https://github.com/loreum-org', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
