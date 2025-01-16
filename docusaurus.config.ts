@@ -8,7 +8,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://cdn.loreum.org/logos/white.svg',
   organizationName: 'Loreum',
   projectName: 'docs',
 
@@ -21,7 +21,7 @@ module.exports = {
       },
       items: [
         {to: '/', label: 'Docs', position: 'left'},
-        {href: 'https://github.com/Loreum', label: 'GitHub', position: 'right'},
+        {href: 'https://github.com/loreum-org', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
