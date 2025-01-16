@@ -1,8 +1,9 @@
 ---
+slug: /
 sidebar_position: 1
 ---
 
-# Introduction to Loreum Network
+# Overview
 
 Welcome to the **Loreum Network** documentation! Loreum is a decentralized, autonomous system designed to coordinate human and AI agency within a secure, scalable, and collaborative ecosystem. Each node in the network, called a **Loreum Node**, operates independently while contributing to the broader network's governance, innovation, and economic sustainability.
 
@@ -71,7 +72,6 @@ graph TD
 ## Get Started
 
 Explore the documentation to learn more about:
-- [Core Concepts](core/overview.md): Dive deeper into the fundamental principles of Loreum.
 - [Setup Guide](guides/setup/local-installation.md): Install and configure your first Loreum Node.
 - [API Reference](api/overview.md): Integrate with Loreum using its robust APIs.
 

@@ -20,7 +20,7 @@ module.exports = {
         src: 'https://cdn.loreum.org/logos/white.svg',
       },
       items: [
-        {to: '/docs/intro', label: 'Docs', position: 'left'},
+        {to: '/', label: 'Docs', position: 'left'},
         {href: 'https://github.com/Loreum', label: 'GitHub', position: 'right'},
       ],
     },
@@ -30,8 +30,8 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {label: 'Introduction', to: '/docs/intro'},
-            {label: 'Get Started', to: '/docs/getting-started'},
+            {label: 'Introduction', to: '/'},
+            {label: 'Why Loreum?', to: '/why-loreum'},
           ],
         },
         {
@@ -59,6 +59,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/loreum-org/docs/edit/main/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -70,4 +71,9 @@ module.exports = {
       },
     ],
   ],
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };

@@ -4,20 +4,22 @@
 module.exports = {
   docs: [
     {
-      type: 'category',
+      type: 'doc',
+      id: 'intro',
       label: 'Introduction',
-      items: [
-        'intro', // Refers to docs/intro.md
-        'getting-started', // Refers to docs/getting-started.md
-      ],
+    },
+    {
+      type: 'doc',
+      id: 'why-loreum',
+      label: 'Why Loreum?',
     },
     {
       type: 'category',
       label: 'Core Concepts',
       items: [
-        'core/overview', // Refers to docs/core/overview.md
-        'core/architecture', // Refers to docs/core/architecture.md
-        'core/governance', // Refers to docs/core/governance.md
+        'core/overview',
+        'core/architecture',
+        'core/governance',
       ],
     },
     {
@@ -28,16 +30,16 @@ module.exports = {
           type: 'category',
           label: 'Setup',
           items: [
-            'guides/setup/local-installation', // Refers to docs/guides/setup/local-installation.md
-            'guides/setup/cloud-deployment', // Refers to docs/guides/setup/cloud-deployment.md
+            'guides/setup/local-installation',
+            'guides/setup/cloud-deployment',
           ],
         },
         {
           type: 'category',
           label: 'Advanced',
           items: [
-            'guides/advanced/query-optimization', // Refers to docs/guides/advanced/query-optimization.md
-            'guides/advanced/token-integration', // Refers to docs/guides/advanced/token-integration.md
+            'guides/advanced/query-optimization',
+            'guides/advanced/token-integration',
           ],
         },
       ],
@@ -46,14 +48,9 @@ module.exports = {
       type: 'category',
       label: 'API Reference',
       items: [
-        'api/overview', // Refers to docs/api/overview.md
-        'api/endpoints', // Refers to docs/api/endpoints.md
+        'api/overview',
+        'api/endpoints',
       ],
-    },
-    {
-      type: 'link',
-      label: 'GitHub',
-      href: 'https://github.com/Loreum',
     },
   ],
 };
