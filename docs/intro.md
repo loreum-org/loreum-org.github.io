@@ -9,8 +9,8 @@ sidebar_position: 1
 
 # Overview
 
-<audio class="player" controls preload="none">
-    <source src="https://docs.google.com/uc?export=open&id=1MP5G0-5uzfIIFJu_WG0Zl4NrTQjp4iVh" type="audio/mp3" />
+<audio class="player" controls preload="none" style={{width: '100%'}}>
+    <source src="/audio/loreum-overview.mp3" type="audio/mp3" />
 </audio>
 
 The Loreum Network is a decentralized super-intelligence ecosystem designed to enable seamless collaboration between human and AI agents. With a focus on fostering innovation, inclusivity, and sustainability, the network leverages distributed AI services and collaborative decision-making to create a secure and interoperable platform. Its vision is to democratize access to advanced technologies and data, empowering individuals and communities to innovate and govern responsibly.
