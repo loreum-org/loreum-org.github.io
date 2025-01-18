@@ -101,13 +101,6 @@ After setup, verify that your node is successfully connected to the Loreum Netwo
 
 ---
 
-## Next Steps
-
-- Explore the [Core Concepts](core/overview.md) to understand how the Loreum Network operates.
-- Learn how to [Monetize Queries](guides/advanced/query-optimization.md) and contribute effectively to the network.
-- Integrate your node with the [Loreum API](api/overview.md) to automate tasks and expand functionality.
-
-Congratulations! You’re now part of the Loreum Network. Let’s shape the future of decentralized intelligence together!
 
 
 

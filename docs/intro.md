@@ -89,11 +89,3 @@ graph TD
    - Decentralized architecture minimizes risks of single points of failure.
 
 ---
-
-## Get Started
-
-Explore the documentation to learn more about:
-- [Setup Guide](guides/setup/local-installation.md): Install and configure your first Loreum Node.
-- [API Reference](api/overview.md): Integrate with Loreum using its robust APIs.
-
-We’re excited to see how you contribute to the Loreum Network and shape the future of decentralized systems!
