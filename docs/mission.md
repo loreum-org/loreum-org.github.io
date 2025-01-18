@@ -1,7 +1,4 @@
----
-sidebar_position: 2
----
-# Why Loreum?
+# Mission
 The Loreum Network is a decentralized intelligence ecosystem that seamlessly integrates human and AI collaboration. Its vision is to foster innovation, inclusivity, and sustainability. It acts as a secure network of independent nodes, enabling collaboration, monetization, and governance while maintaining autonomy and privacy. The network democratizes access to advanced technologies and supports a wide range of applications, from decentralized AI services to data monetization and collaborative decision-making. It’s a versatile platform for various industries.
 
 ## The Problem

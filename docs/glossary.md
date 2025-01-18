@@ -1,8 +1,5 @@
----
-sidebar_position: 1
----
 
-# Core Concepts Overview
+# Glossary
 
 1. **Loreum Network**: A decentralized ecosystem where human and AI agents collaborate seamlessly for innovation and governance.
 

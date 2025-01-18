@@ -10,47 +10,34 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'why-loreum',
-      label: 'Why Loreum?',
+      id: 'mission',
+      label: 'Mission',
     },
     {
-      type: 'category',
-      label: 'Core Concepts',
-      items: [
-        'core/overview',
-        'core/architecture',
-        'core/governance',
-      ],
+      type: 'doc',
+      id: 'getting-started',
+      label: 'Getting Started',
     },
     {
-      type: 'category',
-      label: 'Guides',
-      items: [
-        {
-          type: 'category',
-          label: 'Setup',
-          items: [
-            'guides/setup/local-installation',
-            'guides/setup/cloud-deployment',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Advanced',
-          items: [
-            'guides/advanced/query-optimization',
-            'guides/advanced/token-integration',
-          ],
-        },
-      ],
+      type: 'doc',
+      id: 'network',
+      label: 'Network',
     },
     {
-      type: 'category',
-      label: 'API Reference',
-      items: [
-        'api/overview',
-        'api/endpoints',
-      ],
+      type: 'doc',
+      id: 'architecture',
+      label: 'Architecture',
     },
+    {
+      type: 'doc',
+      id: 'governance',
+      label: 'Governance',
+    },
+    {
+      type: 'doc',
+      id: 'glossary',
+      label: 'Glossary',
+    }
   ],
 };
+

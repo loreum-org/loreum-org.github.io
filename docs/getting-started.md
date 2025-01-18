@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Getting Started
 
 Welcome to the **Loreum Network**! This guide will walk you through the steps to set up your first Loreum Node, so you can start contributing to and benefiting from the network.

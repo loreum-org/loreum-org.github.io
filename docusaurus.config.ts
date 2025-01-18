@@ -31,7 +31,11 @@ module.exports = {
           title: 'Docs',
           items: [
             {label: 'Introduction', to: '/'},
-            {label: 'Why Loreum?', to: '/why-loreum'},
+            {label: 'Mission', to: '/mission'},
+            {label: 'Getting Started', to: '/getting-started'},
+            {label: 'Network', to: '/network'},
+            {label: 'Architecture', to: '/architecture'},
+            {label: 'Governance', to: '/governance'},
           ],
         },
         {
